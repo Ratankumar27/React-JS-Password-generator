@@ -1,0 +1,147 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body{
+  background-color: rgb(21, 21, 40);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passwordBox{
+  /* height: 350px; */
+  width: 300px;
+  background-color: rgb(131, 131, 222);
+  padding: 20px;
+}
+
+.passwordinput{
+  display: flex;
+}
+
+.passwordinput input{
+flex-basis: 80%;
+padding: 5px;
+}
+
+.passwordinput button{
+  flex-basis: 20%;
+  padding: 10px 0px;
+}
+
+.passlen{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+.passlen label{
+  flex-basis: 80%;
+}
+
+.passlen input{
+  flex-basis: 20%;
+  width: 5%;
+}
+
+.passupper{
+  display: flex;
+  margin: 20px 0px;
+}
+
+.passupper label{
+    flex-basis: 80%;
+}
+
+.passupper input{
+  flex-basis: 20%;
+}
+
+.passlwr{
+  display: flex;
+  margin: 20px 0px;
+}
+
+.passlwr label{
+    flex-basis: 80%;
+}
+
+.passlwr input{
+  flex-basis: 20%;
+}
+
+.passno{
+  display: flex;
+  margin: 20px 0px;
+}
+
+.passno label{
+    flex-basis: 80%;
+}
+
+.passno input{
+  flex-basis: 20%;
+}
+
+.passymb{
+  display: flex;
+  margin: 20px 0px;
+}
+
+.passymb label{
+    flex-basis: 80%;
+}
+
+.passymb input{
+  flex-basis: 20%;
+}
+
+.btn{
+width: 100%;
+padding: 10px 0px;
+background-color: #61dafb;
+cursor: pointer;
+}
