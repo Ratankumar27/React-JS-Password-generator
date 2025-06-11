@@ -18,6 +18,8 @@
     <li>Allows the user to copy the password to the clipboard</li>
   </ul>
 
+  <img src="https://github.com/Ratankumar27/React-JS-Password-generator/blob/26d7eae0df7a35d247e989f875080956e29719a6/Screenshot%202025-06-11%20155151.png"/>
+
   <h2>⚙️ How It Works (Functionally)</h2>
   <ul>
     <li>User selects options by checking checkboxes:</li>
